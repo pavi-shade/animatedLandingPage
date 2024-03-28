@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+    color: rgb(255, 255, 255);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: url("samurai.jpg");
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    z-index: -3;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.47);
+    position: absolute;
+    z-index: -1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo>h5{
+    margin-left: 1vw;
+    font-family: a asian hiro;
+    font-size: 2rem;
+}
+.logo>img{
+    width: 60px;
+}
+.heading{
+    display: flex;
+    gap: 4vw;
+
+}
+.heading>h5{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.nav_icon>i{
+    font-size:20px;
+    margin-left: 2vw;
+    cursor: pointer;
+
+}
+
+/*==================================== NAV END */
+#container{
+    width: 50%;
+    margin-left: 3vw;
+}
+#container>h1{
+    font-size: 6vw;
+    padding: 8vw 0 0 ;
+    font-family: gang of three;
+}
+#container>h4{
+    font-size: 18px;
+    margin-top: 2rem;
+    font-weight: 500;
+    color: rgb(219, 219, 219);
+}
+button{
+    padding: 0.8rem 3rem;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin: 3rem 0;
+    cursor: pointer;
+
+}
+#icon{
+    position: absolute;
+    bottom: 5%;
+    padding: 0 3vw;
+}
+#icon>i{
+    font-size: 20px;
+    margin: 0 1.5vw;
+    cursor: pointer;
+
+}
+.scroll>i{
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50% 0);
+}
